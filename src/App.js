@@ -6,19 +6,26 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Tic Tac Toe </h1>
+        <Board />
+
       </header>
+    </div>
+  );
+}
+
+function Board() {
+  return (
+    <div className="tictactoe">
+      <button type="button"> A </button>
+      <button type="button"> B </button>
+      <button type="button"> C </button>
+      <button type="button"> D </button>
+      <button type="button"> E </button>
+      <button type="button"> F </button>
+      <button type="button"> G </button>
+      <button type="button"> H </button>
+      <button type="button"> I </button>
     </div>
   );
 }
